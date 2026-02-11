@@ -1,3 +1,30 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: #1a73e8;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
 body {
     background-color: #f4f6f9;
     color: #333;
@@ -37,26 +64,42 @@ h2 {
 
 
 #Experience ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
 #Experience li {
+    display: flex;
+    flex-direction: column;
     background-color: white;
-    margin: 10px 0;
-    padding: 12px;
-    border-radius: 6px;
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
+
+
+#Connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Connect ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
 
 #Connect a {
     text-decoration: none;
     color: white;
     background-color: #1a73e8;
-    padding: 8px 12px;
-    border-radius: 5px;
-    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: 0.3s;
 }
 
 #Connect a:hover {
