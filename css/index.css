@@ -235,4 +235,19 @@ nav a {
   #Connect a {
     padding: 1rem 2rem;         /* change 2 */
   }
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
 
