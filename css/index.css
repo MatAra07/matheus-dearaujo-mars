@@ -250,4 +250,42 @@ nav a {
     border-radius: 6px;
 }
 
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color: #111;
+  color: white;
+  font-size: 0.9rem;
+}
+
+
+#leave-message {
+  margin: 40px 0;
+}
+
+#leave-message form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+#leave-message input,
+#leave-message textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+#leave-message button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#leave-message button:hover {
+  background-color: gray;
+}
 
